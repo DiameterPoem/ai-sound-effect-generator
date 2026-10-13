@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# PySide6 / Qt
+*.ui.py
+*.qmlc
+*.jsc
+
+# Local config + model cache
+.sfxgen/
+config/local.toml
+models/cache/
+*.onnx
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Render scratch
+renders/
+exports/
+*.wav
+*.flac
+*.mp3
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
